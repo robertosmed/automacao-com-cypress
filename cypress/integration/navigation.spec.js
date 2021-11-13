@@ -25,7 +25,7 @@ describe("Navigation and Scroll", function () {
     })
 
     it("Impressão Quantidade de itens", function() {
-        cy.visit('https://try.discourse.org'); // opening url
+        cy.visit('https://try.discourse.org'); // opening url 
         cy.wait(1000)
         cy.contains('Categories').click()
 
