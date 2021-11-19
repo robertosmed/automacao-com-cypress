@@ -5,12 +5,12 @@ describe("Navigation and Scroll", function () {
 
     it("Navigation", function () {
         cy.visit('/'); // opening url
-        cy.get('nav  ul li a[href="https://try.discourse.org"]').click() // cliccando opcao Demo
+        cy.get('nav  ul li a[href="https://try.discourse.org"]').click() // clicando opcao Demo
         cy.wait(1000)
     })
 
     it("scroll the page down", function () {
-        cy.get('footerclea').scrollIntoView()
+        cy.get('footer').scrollIntoView()
     })
     
     it("Impressão Titulos topicos fechados", function() {
