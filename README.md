@@ -9,7 +9,7 @@
 - NPM@6.14.4
 
 # Cenário de Teste:
-- Imprmir informações da opcao Demo
+- Imprimir informações da opcao Demo
 
 # Fluxo do cenário:
 - Acessar a pagina https://www.discourse.org/
